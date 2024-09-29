@@ -20,7 +20,7 @@
   height: 5rem;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
-  position: relative; /* Bolja kontrola pozicioniranja */
+  position: relative;
 }
 
 .list-item:hover {
@@ -28,7 +28,7 @@
 }
 
 .list-item > a p {
-  transition: color ease-in-out 0.5s; /* Dodano za glatku promjenu boje */
+  transition: color ease-in-out 0.5s; /* Glađi prijelaz boje za tekst */
 }
 
 .list-item:hover p {
@@ -84,5 +84,31 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Transition for icons and text */
+.fa-instagram,
+.fa-whatsapp,
+.fa-at,
+.fa-file-pdf,
+.fa-location-dot,
+.fa-phone {
+  transition: color 0.5s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hover effect for entire .list-item */
+.list-item:hover .fa-instagram,
+.list-item:hover .fa-whatsapp,
+.list-item:hover .fa-at,
+.list-item:hover .fa-file-pdf,
+.list-item:hover .fa-location-dot,
+.list-item:hover .fa-phone {
+  -webkit-text-fill-color: var(--main-bg-color);
+}
+
+.list-item:hover p {
+  color: var(--main-bg-color);
 }
 /* //////////////////////////////// */
