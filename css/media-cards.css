@@ -1,0 +1,82 @@
+.media-cards {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+}
+
+.card-list {
+  width: 100%;
+  height: 100%;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.list-item {
+  width: 100%;
+  height: 5rem;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  position: relative; /* Bolja kontrola pozicioniranja */
+}
+
+.list-item:hover {
+  background-color: var(--main-t-color);
+}
+
+.list-item > a p {
+  transition: color ease-in-out 0.5s; /* Dodano za glatku promjenu boje */
+}
+
+.list-item:hover p {
+  color: var(--main-bg-color);
+}
+
+.list-item > a {
+  width: 100%;
+  height: 100%;
+  font-size: 2.5rem;
+  gap: 1rem;
+  padding: 0 5rem 0 2rem;
+}
+
+.fa-instagram {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-whatsapp {
+  background: linear-gradient(45deg, #25d366, #128c7e, #075e54);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-at {
+  background: linear-gradient(45deg, #ea4335, #fbbc05, #34a853, #4285f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-phone {
+  background: linear-gradient(45deg, #34c759, #4a90e2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-file-pdf {
+  background: linear-gradient(45deg, #ff0000, #bdbdbd, #757575);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-location-dot {
+  background: linear-gradient(45deg, #007bff, #28a745);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

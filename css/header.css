@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 30dvh;
+  margin: 5rem 0;
+}
+
+.logo-holder {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 5rem;
+}
+
+.logo-holder > img {
+  border-bottom: 0.1rem solid var(--main-t-color);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  width: 100%;
+}
+
+.title > h1 {
+  font-size: 3.2rem;
+}
+
+.title > span {
+  font-size: 1.4rem;
+}

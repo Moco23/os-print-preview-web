@@ -1,0 +1,230 @@
+/* import css files */
+@import url(header.css);
+@import url(media-cards.css);
+/* global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+/* root */
+:root {
+  --main-bg-color: #09407d;
+  --main-t-color: #dd9827;
+  --back-color: #000;
+  --white-color: #fff;
+}
+
+/* //////////////////////////////// */
+/* body */
+body {
+  background-color: var(--main-bg-color);
+  background-image: url("/css/imgs/background-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* html */
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+/* //////////////////////////////// */
+
+/* global classes */
+
+/* //////////////////////////////// */
+/* display settings */
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* flex classes */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* align items settings */
+.ai-start {
+  align-items: flex-start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.ai-self-start {
+  align-items: flex-start;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* justify content settings */
+.jc-start {
+  justify-content: flex-start;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* text settings */
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+
+.td-underline {
+  text-decoration: underline;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* colors class */
+.main-bg-color {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg-color {
+  background-color: var(--main-t-color);
+}
+
+.bg-black {
+  background-color: var(--back-color);
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+.main-t-color {
+  color: var(--main-t-color);
+}
+
+.secondary-t-color {
+  color: var(--main-bg-color);
+}
+
+.color-balck {
+  color: var(--back-color);
+}
+
+.color-white {
+  color: var(--white-color);
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* containers  */
+.container {
+  width: 100%;
+  max-width: 75.8rem;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* //////////////////////////////// */
+
+/* //////////////////////////////// */
+/* width settings */
+.w-100 {
+  width: 100%;
+}
+
+/* //////////////////////////////// */
+
+/* prebaiti u poseban file ako bude moguce */
+.review-us {
+  margin-bottom: 5rem;
+}
+
+.review-us a {
+  font-size: 2.8rem;
+}
+/* prebaiti u poseban file ako bude moguce */
+
+/* prebaciti u zaseban file */
+footer {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.2rem;
+}
+/* prebaciti u zaseban file */
