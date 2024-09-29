@@ -1,9 +1,12 @@
+/* //////////////////////////////////////////////////////////////// */
+/* header */
 .header {
   width: 100%;
   height: 30dvh;
   margin: 5rem 0;
 }
 
+/* logo holder */
 .logo-holder {
   width: 15rem;
   height: 15rem;
@@ -17,6 +20,7 @@
   display: block;
 }
 
+/* site titel */
 .title {
   width: 100%;
 }
@@ -28,3 +32,4 @@
 .title > span {
   font-size: 1.4rem;
 }
+/* //////////////////////////////////////////////////////////////// */

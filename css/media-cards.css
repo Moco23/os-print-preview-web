@@ -1,9 +1,12 @@
+/* //////////////////////////////// */
+/* media cards */
 .media-cards {
   width: 100%;
   height: 100%;
   margin-bottom: 5rem;
 }
 
+/* card list */
 .card-list {
   width: 100%;
   height: 100%;
@@ -11,6 +14,7 @@
   padding: 0 1rem;
 }
 
+/* card items */
 .list-item {
   width: 100%;
   height: 5rem;
@@ -39,6 +43,7 @@
   padding: 0 5rem 0 2rem;
 }
 
+/* clip backgrounds settings for media icons */
 .fa-instagram {
   background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
   background-clip: text;
@@ -80,3 +85,4 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* //////////////////////////////// */
