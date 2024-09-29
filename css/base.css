@@ -12,6 +12,12 @@
   line-height: 1.5;
 }
 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('/fonts/impacted-2-0.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/fonts/impacted-2-0.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
 /* root */
 :root {
   --main-bg-color: #09407d;
@@ -23,6 +29,7 @@
 /* //////////////////////////////// */
 /* body */
 body {
+  font-family: 'MyWebFont';
   background-color: var(--main-bg-color);
   background-image: url("/css/imgs/background-image.svg");
   background-position: center;
